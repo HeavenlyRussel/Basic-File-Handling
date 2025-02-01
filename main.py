@@ -5,7 +5,7 @@ system("cls")
 print("Hello and welcome to my program where even if you exit this program, your data is stored")
 print("\n")
 
-file = open("Practice Data Storage.txt", 'r')
+file = open("Data Storage.txt", 'r')
 lastData = file.read()
 
 if lastData == "":
