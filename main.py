@@ -17,8 +17,8 @@ file.close()
 
 print("\n")
 print("Now enter a string for example: ", end = "")
-exampleNumber = input()
+exampleString = input()
 
 file = open("Practice Data Storage.txt", 'w')
-file.write(exampleNumber)
+file.write(exampleString)
 file.close()
